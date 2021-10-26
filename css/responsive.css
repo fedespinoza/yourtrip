@@ -1,0 +1,332 @@
+@media (max-width: 375px) {
+    body{
+        max-width: 99%;
+        margin: 0px auto;
+    }
+    header nav{
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header nav .logo{
+        padding-left: 0px;
+    }
+    
+    header nav .nav{
+        padding-right: 0px;
+    }
+
+    header .imagen{
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header .imagen .izquierdo{
+        display: none;
+    }
+
+    header .imagen .derecho{
+        width: 80%;
+        height: 65vh;
+    }
+
+    form label{
+        font-size: 13px;
+        color: #B62F31;
+    }
+
+    .destinos select{
+        width: 100%;
+        height: 25px;
+        text-align: center;
+    }
+
+    .tipo select{
+        width: 100%;
+        height: 25px;
+    }
+
+    .salida{
+        width: 100px;
+    }
+    
+    .regreso{
+        width: 100px;
+    }
+
+    .btnCotizar{
+        padding: 3px 13px;
+    }
+
+    main{
+        width: 99%;
+    }
+
+    .asist{
+        margin-top: 60px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #e70000;
+    }
+
+    .asist3{
+        max-width: 85%;
+        margin: 10px auto;
+        margin-top: 40px;
+    }
+
+    .asist4{
+        margin-top: 40px;
+        font-size: 23px;
+        font-weight: 400;
+        color: #e70000;
+    }
+
+    main .planes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .linea1{
+        background-color: #bebebe;
+        width: 99%;
+        height: 2px;
+        margin: 0 auto;
+    }
+
+    main .primerPlan,
+    main .segundoPlan,
+    main .tercerPlan{
+        margin-top: 20px;
+    }
+
+    footer .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    footer .formulario form input{
+        padding: 5px 0;
+        font-size: 14px;
+        padding-left: 5px;
+        max-width: 70%;
+        margin:10px auto;
+    }
+
+    footer .formulario form button{
+        margin-top: 10px;
+        max-width: 70%;
+        margin:10px auto;
+    }
+
+    footer .footer-bajo{
+        background-color: #494949;
+        text-align: center;
+        padding: 3px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    footer .footer-bajo p{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    
+  }
+
+  @media (max-width: 599px){
+    body{
+        max-width: 99%;
+        margin: 0px auto;
+    }
+    header nav{
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header nav .logo{
+        padding-left: 0px;
+    }
+    
+    header nav .nav{
+        padding-right: 0px;
+    }
+
+    header .imagen{
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header .imagen .izquierdo{
+        display: none;
+    }
+
+    header .imagen .derecho{
+        width: 80%;
+        height: 65vh;
+    }
+
+    form label{
+        font-size: 13px;
+        color: #B62F31;
+    }
+
+    .destinos select{
+        width: 100%;
+        height: 25px;
+    }
+
+    .tipo select{
+        width: 100%;
+        height: 25px;
+    }
+
+    .salida input{
+        width: 95%;
+    }
+    
+    .regreso input{
+        width: 95%;
+    }
+
+    .btnCotizar{
+        padding: 3px 13px;
+    }
+
+    main{
+        width: 99%;
+    }
+
+    .asist{
+        margin-top: 60px;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #e70000;
+    }
+
+    .asist3{
+        max-width: 85%;
+        margin: 10px auto;
+        margin-top: 40px;
+    }
+
+    .asist4{
+        margin-top: 40px;
+        font-size: 23px;
+        font-weight: 400;
+        color: #e70000;
+    }
+
+    main .planes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .linea1{
+        background-color: #bebebe;
+        width: 99%;
+        height: 2px;
+        margin: 0 auto;
+    }
+
+    main .primerPlan,
+    main .segundoPlan,
+    main .tercerPlan{
+        margin-top: 20px;
+    }
+
+    footer .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    footer .formulario form input{
+        padding: 5px 0;
+        font-size: 14px;
+        padding-left: 5px;
+        max-width: 70%;
+        margin:10px auto;
+    }
+
+    footer .formulario form button{
+        margin-top: 10px;
+        max-width: 70%;
+        margin:10px auto;
+    }
+
+    footer .footer-bajo{
+        background-color: #494949;
+        text-align: center;
+        padding: 3px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    footer .footer-bajo p{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    #resultado{
+        background-color: rgba(70, 69, 69, 0.925);
+        padding: 10px 0;
+        margin: 10px auto;
+        border-radius: 15px;
+        font-size: 12px;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+        position: absolute;
+        top: 380px;
+        left: 50px;
+        width: 75%;
+        height: 250px;
+        color: #fff;
+    }
+  }
+
+@media (min-width: 1367px){
+    #resultado{
+        background-color: rgba(255, 255, 255, 0.822);
+        padding: 10px 0;
+        margin: 10px auto;
+        border-radius: 15px;
+        font-size: 12px;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+        position: absolute;
+        top: 300px;
+        left: 340px;
+        width: 400px;
+        height: 250px
+    }
+}
